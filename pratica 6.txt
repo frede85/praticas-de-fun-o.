@@ -1,0 +1,16 @@
+void main (){
+  
+double a = 17;
+  (a > 0)
+  ?print("Idade:$a Infantil A" )
+  :(a >= 5 && a <= 7)
+  ?print("Idade:$a Infantil B")
+    :(a >=8 && a <= 10)
+  ?print("Idade:$a Juvenil A")
+    :(a >= 11 && a <= 13)
+  ?print("Idade:$a Juvenil B")
+    :(a >= 14 && a <= 17)
+  ?print("Idade:$a Adulto")
+    :(a >=18);
+  
+}

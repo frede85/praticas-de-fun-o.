@@ -1,0 +1,9 @@
+void main() {
+
+  a(5.0, 5.0);
+  
+}
+void a(double a, double b){
+  double res = a + b;
+  print(res);
+}

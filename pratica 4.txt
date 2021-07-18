@@ -1,0 +1,8 @@
+void main() {
+double a = 23.22;
+  double b = 23.67;
+  
+  print(a.round());
+  print(b.round());
+  
+}
